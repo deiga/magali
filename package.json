@@ -20,6 +20,9 @@
     "typescript": "^2.9.2"
   },
   "scripts": {
-    "dev:watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+    "dev:watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts",
+    "lint": "tslint --project tsconfig.json",
+    "pretest": "yarn lint",
+    "test": "exit 0"
   }
 }
