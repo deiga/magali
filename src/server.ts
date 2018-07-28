@@ -20,6 +20,19 @@ router.get("/vbb/stations/:query", async (ctx) => {
   });
   ctx.body = locations.shift();
 });
+router.get("/vbb/departures/:station", async (ctx) => {
+  const locations = await hafas.locations(ctx.params.station, {
+    addresses: false,
+    poi: false,
+    results: 3,
+  });
+  const station = locations.shift();
+  console.log("Looking for departures from station: ", station);
+  const departures = await hafas.departures(station.id, {
+    duration: 30,
+  });
+  ctx.body = departures;
+});
 
 router.get("/*", async (ctx) => {
   ctx.body = "Hello World!";
