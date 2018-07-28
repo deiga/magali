@@ -7,12 +7,15 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "bunyan": "^1.8.12",
     "koa": "^2.5.2",
     "koa-body": "^4.0.4",
+    "koa-bunyan": "^1.0.1",
     "koa-router": "^7.4.0",
     "vbb-hafas": "^4.2.1"
   },
   "devDependencies": {
+    "@types/bunyan": "^1.8.4",
     "@types/koa": "^2.0.46",
     "@types/koa-router": "^7.0.30",
     "nodemon": "^1.18.3",
@@ -21,7 +24,7 @@
     "typescript": "^2.9.2"
   },
   "scripts": {
-    "dev:watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts",
+    "dev:watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts | bunyan",
     "lint": "tslint --project tsconfig.json",
     "pretest": "yarn lint",
     "test": "exit 0"

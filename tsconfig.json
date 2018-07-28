@@ -7,6 +7,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
+        "koa-bunyan": ["types/koa-bunyan"],
         "vbb-hafas": ["types/vbb-hafas"]
     }
   },
