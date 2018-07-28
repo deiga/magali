@@ -9,7 +9,8 @@
   "dependencies": {
     "koa": "^2.5.2",
     "koa-body": "^4.0.4",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "vbb-hafas": "^4.2.1"
   },
   "devDependencies": {
     "@types/koa": "^2.0.46",

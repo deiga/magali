@@ -4,9 +4,16 @@
     "target": "es2017",
     "noImplicitAny": true,
     "outDir": "./dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+        "vbb-hafas": ["types/vbb-hafas"]
+    }
   },
   "include": [
     "./src/**/*"
+  ],
+  "exclude": [
+      "node_modules"
   ]
 }

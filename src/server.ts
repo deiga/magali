@@ -1,5 +1,6 @@
 import * as Koa from "koa";
 import * as Router from "koa-router";
+import * as hafas from "vbb-hafas";
 
 const app = new Koa();
 
@@ -11,6 +12,15 @@ app.use(async (ctx, next) => {
 });
 
 const router = new Router();
+router.get("/vbb/stations/:query", async (ctx) => {
+  const locations = await hafas.locations(ctx.params.query, {
+    addresses: false,
+    poi: false,
+    results: 3,
+  });
+  ctx.body = locations.shift();
+});
+
 router.get("/*", async (ctx) => {
   ctx.body = "Hello World!";
 });
