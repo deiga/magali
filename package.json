@@ -18,7 +18,7 @@
     "@types/bunyan": "^1.8.4",
     "@types/koa": "^2.0.46",
     "@types/koa-router": "^7.0.30",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.5",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
     "typescript": "^2.9.2"
