@@ -1149,9 +1149,9 @@ koa-body@^4.0.4:
     co-body "^5.1.1"
     formidable "^1.1.1"
 
-koa-bunyan@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/koa-bunyan/-/koa-bunyan-1.0.1.tgz#9e1003061ce18cf81f065e8326072743752a4d3b"
+koa-bunyan@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/koa-bunyan/-/koa-bunyan-1.0.2.tgz#823fd3b0a409f41cec3ba30a3dcb3fe4c50f9926"
 
 koa-compose@^3.0.0:
   version "3.2.1"
