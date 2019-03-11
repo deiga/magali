@@ -15,7 +15,7 @@
     "vbb-hafas": "^5.1.0"
   },
   "devDependencies": {
-    "@types/bunyan": "^1.8.5",
+    "@types/bunyan": "^1.8.6",
     "@types/koa": "^2.0.48",
     "@types/koa-router": "^7.0.40",
     "nodemon": "^1.18.10",
