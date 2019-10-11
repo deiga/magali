@@ -12,7 +12,7 @@
     "koa-body": "4.1.0",
     "koa-bunyan": "1.0.2",
     "koa-router": "7.4.0",
-    "vbb-hafas": "6.0.0"
+    "vbb-hafas": "6.1.0"
   },
   "devDependencies": {
     "@types/bunyan": "1.8.6",

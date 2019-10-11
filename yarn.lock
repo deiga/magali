@@ -2141,9 +2141,9 @@ vbb-change-positions@^1.1.0:
   dependencies:
     ndjson "^1.5.0"
 
-vbb-hafas@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.0.0.tgz#c956977c75a66f11f2520e0135e586b9b3bbc1bc"
+vbb-hafas@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.1.0.tgz#725cd2625940a25da7307f745faf4049b4775ecf"
   dependencies:
     hafas-client "^4.0.1"
     merged-vbb-stations "^1.6.0"
