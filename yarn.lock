@@ -297,7 +297,7 @@ builtin-modules@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
-bunyan@^1.8.12:
+bunyan@1.8.12:
   version "1.8.12"
   resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
   optionalDependencies:
@@ -1117,7 +1117,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-koa-body@^4.1.0:
+koa-body@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/koa-body/-/koa-body-4.1.0.tgz#99295ee2e9543884e5730ae696780930b3821c44"
   dependencies:
@@ -1125,7 +1125,7 @@ koa-body@^4.1.0:
     co-body "^5.1.1"
     formidable "^1.1.1"
 
-koa-bunyan@^1.0.2:
+koa-bunyan@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/koa-bunyan/-/koa-bunyan-1.0.2.tgz#823fd3b0a409f41cec3ba30a3dcb3fe4c50f9926"
 
@@ -1150,7 +1150,7 @@ koa-is-json@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/koa-is-json/-/koa-is-json-1.0.0.tgz#273c07edcdcb8df6a2c1ab7d59ee76491451ec14"
 
-koa-router@^7.4.0:
+koa-router@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/koa-router/-/koa-router-7.4.0.tgz#aee1f7adc02d5cb31d7d67465c9eacc825e8c5e0"
   dependencies:
@@ -1161,7 +1161,7 @@ koa-router@^7.4.0:
     path-to-regexp "^1.1.1"
     urijs "^1.19.0"
 
-koa@^2.7.0:
+koa@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/koa/-/koa-2.7.0.tgz#7e00843506942b9d82c6cc33749f657c6e5e7adf"
   dependencies:
@@ -2141,7 +2141,7 @@ vbb-change-positions@^1.1.0:
   dependencies:
     ndjson "^1.5.0"
 
-vbb-hafas@^6.0.0:
+vbb-hafas@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.0.0.tgz#c956977c75a66f11f2520e0135e586b9b3bbc1bc"
   dependencies:
