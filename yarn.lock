@@ -2031,9 +2031,9 @@ touch@^3.1.0:
   dependencies:
     nopt "~1.0.10"
 
-ts-node@8.4.1:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.4.1.tgz#270b0dba16e8723c9fa4f9b4775d3810fd994b4f"
+ts-node@8.5.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.5.0.tgz#bc7d5a39133d222bf25b1693651e4d893785f884"
   dependencies:
     arg "^4.1.0"
     diff "^4.0.1"
@@ -2171,13 +2171,18 @@ vbb-change-positions@^1.1.0:
   dependencies:
     ndjson "^1.5.0"
 
-vbb-hafas@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.1.0.tgz#725cd2625940a25da7307f745faf4049b4775ecf"
+vbb-hafas@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.2.0.tgz#215da354dad8bf74273392efb7dcc1eef1e81f5d"
   dependencies:
     hafas-client "^4.0.1"
     merged-vbb-stations "^1.6.0"
     vbb-change-positions "^1.1.0"
+    vbb-line-colors "^1.0.2"
+
+vbb-line-colors@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vbb-line-colors/-/vbb-line-colors-1.0.2.tgz#6c1abb4af438ea83c70bad1f9eaae685ee3622ec"
 
 vbb-parse-line@^0.3.1:
   version "0.3.1"

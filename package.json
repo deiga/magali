@@ -12,14 +12,14 @@
     "koa-body": "4.1.1",
     "koa-bunyan": "1.0.2",
     "koa-router": "7.4.0",
-    "vbb-hafas": "6.1.0"
+    "vbb-hafas": "6.2.0"
   },
   "devDependencies": {
     "@types/bunyan": "1.8.6",
     "@types/koa": "2.0.52",
     "@types/koa-router": "7.0.42",
     "nodemon": "1.19.4",
-    "ts-node": "8.4.1",
+    "ts-node": "8.5.0",
     "tslint": "5.20.1",
     "typescript": "3.7.2"
   },
