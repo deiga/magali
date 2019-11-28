@@ -19,7 +19,7 @@
     "@types/koa": "2.11.0",
     "@types/koa-router": "7.0.42",
     "nodemon": "2.0.1",
-    "ts-node": "8.5.3",
+    "ts-node": "8.5.4",
     "tslint": "5.20.1",
     "typescript": "3.7.2"
   },
