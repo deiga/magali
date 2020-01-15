@@ -137,6 +137,10 @@
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.2.tgz#fa8e1ad1d474688a757140c91de6dace6f4abc8d"
 
+"@types/retry@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
+
 "@types/serve-static@*":
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.2.tgz#f5ac4d7a6420a99a6a45af4719f4dcd8cd907a48"
@@ -578,9 +582,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-hafas-client@^4.0.1:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-4.0.3.tgz#e92685648a4dfb1945c0664a5ec2a68cef019d8b"
+hafas-client@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/hafas-client/-/hafas-client-5.0.1.tgz#d41ba0f771b9ac78429c5d23375577231ae3ec0d"
   dependencies:
     "@derhuerst/br2nl" "^1.0.0"
     "@mapbox/polyline" "^1.0.0"
@@ -590,15 +594,16 @@ hafas-client@^4.0.1:
     gps-distance "0.0.4"
     lodash "^4.17.5"
     luxon "^1.3.0"
-    p-retry "^2.0.0"
-    p-throttle "^2.1.0"
+    object-scan "^10.0.9"
+    p-retry "^4.1.0"
+    p-throttle "^3.1.0"
     pinkie-promise "^2.0.1"
     qs "^6.6.0"
     slugg "^1.2.0"
-    vbb-parse-line "^0.3.1"
+    vbb-parse-line "^1.0.0"
     vbb-parse-ticket "^0.2.1"
     vbb-short-station-name "^1.0.1"
-    vbb-stations "^6.2.1"
+    vbb-stations "^7.1.0"
     vbb-translate-ids "^3.1.0"
 
 has-flag@^3.0.0:
@@ -884,9 +889,9 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
-merged-vbb-stations@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/merged-vbb-stations/-/merged-vbb-stations-1.6.0.tgz#ed0b5a93bb94f899930242d68858ea21090f8a49"
+merged-vbb-stations@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/merged-vbb-stations/-/merged-vbb-stations-2.0.0.tgz#76164aa3db9bc6e9c1a077a74b459727e0680ce9"
 
 methods@^1.0.1:
   version "1.1.2"
@@ -998,6 +1003,10 @@ npm-run-path@^2.0.0:
   dependencies:
     path-key "^2.0.0"
 
+object-scan@^10.0.9:
+  version "10.0.16"
+  resolved "https://registry.yarnpkg.com/object-scan/-/object-scan-10.0.16.tgz#b0f9c5de3afd2bc17144ef540ab8c23e79e7b778"
+
 on-finished@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -1018,15 +1027,16 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
 
-p-retry@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-2.0.0.tgz#b97f1f4d6d81a3c065b2b40107b811e995c1bfba"
+p-retry@^4.1.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-4.2.0.tgz#ea9066c6b44f23cab4cd42f6147cdbbc6604da5d"
   dependencies:
+    "@types/retry" "^0.12.0"
     retry "^0.12.0"
 
-p-throttle@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-2.1.0.tgz#d3cf3bc7a8aae17b814137270a207222e990da44"
+p-throttle@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-3.1.0.tgz#dee34ce4e77d7cc2dfdc1fea0daedccc64147214"
 
 package-json@^4.0.0:
   version "4.0.1"
@@ -1437,12 +1447,12 @@ vbb-change-positions@^1.1.0:
   dependencies:
     ndjson "^1.5.0"
 
-vbb-hafas@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-6.2.0.tgz#215da354dad8bf74273392efb7dcc1eef1e81f5d"
+vbb-hafas@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-7.0.1.tgz#dbdec0fc726e80a2467bb17f9432712d3be70404"
   dependencies:
-    hafas-client "^4.0.1"
-    merged-vbb-stations "^1.6.0"
+    hafas-client "^5.0.0"
+    merged-vbb-stations "^2.0.0"
     vbb-change-positions "^1.1.0"
     vbb-line-colors "^1.0.2"
 
@@ -1450,9 +1460,9 @@ vbb-line-colors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vbb-line-colors/-/vbb-line-colors-1.0.2.tgz#6c1abb4af438ea83c70bad1f9eaae685ee3622ec"
 
-vbb-parse-line@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/vbb-parse-line/-/vbb-parse-line-0.3.1.tgz#e21156d23ff36ad897fb6dcad84cfc90a637646d"
+vbb-parse-line@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vbb-parse-line/-/vbb-parse-line-1.0.0.tgz#be307bbe7968aae2f35576117abd7f64e948d25c"
 
 vbb-parse-ticket@^0.2.1:
   version "0.2.1"
@@ -1462,9 +1472,9 @@ vbb-short-station-name@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vbb-short-station-name/-/vbb-short-station-name-1.0.1.tgz#e6d89a16795b6999d3b43092ac9d8bed90103fdd"
 
-vbb-stations@^6.2.1:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/vbb-stations/-/vbb-stations-6.5.0.tgz#4cedf45c505372f1d231b7aec1aa18f891592f43"
+vbb-stations@^7.1.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/vbb-stations/-/vbb-stations-7.2.0.tgz#6bfaf252ca23caf9b2048ac8e023cdbe6a89f4bf"
   dependencies:
     lodash.get "^4.4.2"
 
