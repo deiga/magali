@@ -114,9 +114,9 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
-"@types/koa@2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.11.0.tgz#394a3e9ec94f796003a6c8374b4dbc2778746f20"
+"@types/koa@2.11.1":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.11.1.tgz#b116c860d61ef1e3b6a9ab0e5bb9703a69d951ff"
   dependencies:
     "@types/accepts" "*"
     "@types/cookies" "*"
