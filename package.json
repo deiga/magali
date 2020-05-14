@@ -18,10 +18,10 @@
     "@types/bunyan": "1.8.6",
     "@types/koa": "2.11.3",
     "@types/koa-router": "7.4.0",
-    "nodemon": "2.0.3",
+    "nodemon": "2.0.4",
     "ts-node": "8.10.1",
     "tslint": "6.1.2",
-    "typescript": "3.8.3"
+    "typescript": "3.9.2"
   },
   "scripts": {
     "dev:watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts | bunyan",
