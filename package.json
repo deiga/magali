@@ -8,8 +8,8 @@
   "private": false,
   "dependencies": {
     "bunyan": "1.8.12",
-    "koa": "2.11.0",
-    "koa-body": "4.1.1",
+    "koa": "2.12.0",
+    "koa-body": "4.1.2",
     "koa-bunyan": "1.0.2",
     "koa-router": "8.0.8",
     "vbb-hafas": "7.0.2"
