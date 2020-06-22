@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "bunyan": "1.8.12",
-    "koa": "2.12.1",
+    "koa": "2.13.0",
     "koa-body": "4.2.0",
     "koa-bunyan": "1.0.2",
     "koa-router": "9.0.1",
