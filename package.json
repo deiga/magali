@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "bunyan": "1.8.13",
+    "bunyan": "1.8.14",
     "koa": "2.13.0",
     "koa-body": "4.2.0",
     "koa-bunyan": "1.0.2",
