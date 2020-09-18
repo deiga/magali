@@ -1542,10 +1542,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
-  integrity sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
+typescript@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
+  integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
 
 undefsafe@^2.0.2:
   version "2.0.2"
@@ -1601,9 +1601,10 @@ vbb-change-positions@^1.1.0:
   dependencies:
     ndjson "^1.5.0"
 
-vbb-hafas@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-7.0.2.tgz#24300937c328a8dad49c6086edc210a164364526"
+vbb-hafas@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/vbb-hafas/-/vbb-hafas-7.0.3.tgz#cab3eb9e72cb27877f38b1b83289787801420622"
+  integrity sha512-Tt6tuaa7h+bg6+Kw6TCJ4yj+KJb0E1UUZZUihF3XnUabSutqEP9DKbr0YehgEGm34dYzRDY4mHXtH+HLIEEQXQ==
   dependencies:
     hafas-client "^5.0.0"
     merged-vbb-stations "^2.0.0"
