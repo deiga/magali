@@ -11,7 +11,7 @@
     "koa": "2.13.1",
     "koa-body": "4.2.0",
     "koa-bunyan": "1.0.2",
-    "koa-router": "10.0.0",
+    "koa-router": "10.1.1",
     "vbb-hafas": "7.0.3"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
     "@types/koa": "2.13.4",
     "@types/koa-router": "7.4.4",
     "nodemon": "2.0.12",
-    "ts-node": "10.2.0",
+    "ts-node": "10.2.1",
     "tslint": "6.1.3",
     "typescript": "4.3.5"
   },
