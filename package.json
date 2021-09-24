@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "bunyan": "1.8.15",
-    "koa": "2.13.1",
+    "koa": "2.13.3",
     "koa-body": "4.2.0",
     "koa-bunyan": "1.0.2",
     "koa-router": "10.1.1",
@@ -18,7 +18,7 @@
     "@types/bunyan": "1.8.7",
     "@types/koa": "2.13.4",
     "@types/koa-router": "7.4.4",
-    "nodemon": "2.0.12",
+    "nodemon": "2.0.13",
     "ts-node": "10.2.1",
     "tslint": "6.1.3",
     "typescript": "4.4.3"
