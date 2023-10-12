@@ -11,7 +11,7 @@
     "koa": "2.13.4",
     "koa-body": "4.2.0",
     "koa-bunyan": "1.0.2",
-    "koa-router": "10.1.1",
+    "koa-router": "11.0.2",
     "vbb-hafas": "8.0.1"
   },
   "devDependencies": {
